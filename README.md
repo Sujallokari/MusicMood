@@ -20,32 +20,35 @@ A full-stack music playlist application that generates personalized playlists ba
 - **UI**: shadcn/ui + Tailwind CSS
 - **Authentication**: Replit OAuth
 
-## Setup Instructions
+## Quick Local Setup
 
-### 1. Install Dependencies
+### 1. One-Command Setup
 ```bash
-npm install
+npm install && npm run setup
 ```
+This will:
+- Install all dependencies
+- Create `.env` file with secure SESSION_SECRET
+- Show you exactly what to do next
 
-### 2. Environment Variables
-Create a `.env` file in the project root with:
-```
-DATABASE_URL=your_postgresql_connection_string
-SESSION_SECRET=your_session_secret
-```
+### 2. Add Your Database
+Edit `.env` file and replace `DATABASE_URL` with your database connection string.
 
-**Note**: When running on Replit, `REPL_ID` and other Replit-specific variables are automatically provided.
+**Free Database Options:**
+- **Neon** (Recommended): https://neon.tech
+- **Supabase**: https://supabase.com
 
-### 3. Database Setup
+### 3. Create Database Tables
 ```bash
-# Push schema to database
 npm run db:push
 ```
 
-### 4. Run Development Server
+### 4. Start Application
 ```bash
 npm run dev
 ```
+
+That's it! Your app will be running at http://localhost:5000
 
 ## Project Structure
 
