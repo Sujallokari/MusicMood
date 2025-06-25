@@ -28,12 +28,13 @@ npm install
 ```
 
 ### 2. Environment Variables
-Create a `.env` file with:
+Create a `.env` file in the project root with:
 ```
 DATABASE_URL=your_postgresql_connection_string
 SESSION_SECRET=your_session_secret
-REPL_ID=your_repl_id
 ```
+
+**Note**: When running on Replit, `REPL_ID` and other Replit-specific variables are automatically provided.
 
 ### 3. Database Setup
 ```bash
