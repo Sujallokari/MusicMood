@@ -101,8 +101,12 @@ VibeStream is a full-stack music playlist application that generates personalize
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+User requested project download for local development.
 
 ## Changelog
 
-Changelog:
-- June 25, 2025. Initial setup
+- June 25, 2025: Initial VibeStream setup with full-stack architecture
+- June 25, 2025: PostgreSQL database integration completed
+- June 25, 2025: User authentication system implemented with Replit OAuth
+- June 25, 2025: Dark theme UI with mood-based playlist generation
+- June 25, 2025: Project prepared for download and local development
